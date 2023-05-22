@@ -34,7 +34,7 @@ Player player = new()
     ClassSpecification = classSpecification,
 };
 
-AnsiConsole.MarkupLine($"[bold]Guid: [/]A {classSpecification.Name}! Magnificent! I dated a {classSpecification.Name} once... Long story, a lot of bloodshed... Anyway... Let's get you started. You need some weapons, hurry up, choose!");
+AnsiConsole.MarkupLine($"[bold]Guide: [/]A {classSpecification.Name}! Magnificent! I dated a {classSpecification.Name} once... Long story, a lot of bloodshed... Anyway... Let's get you started. You need some weapons, hurry up, choose!");
 
 Weapon weapon = AnsiConsole.Prompt(
     new SelectionPrompt<Weapon>()
